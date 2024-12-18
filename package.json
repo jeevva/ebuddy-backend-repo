@@ -1,0 +1,22 @@
+{
+  "name": "ebuddy-backend-repo",
+  "version": "1.0.0",
+  "description": "backend repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeevva/ebuddy-backend-repo.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "harun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeevva/ebuddy-backend-repo/issues"
+  },
+  "homepage": "https://github.com/jeevva/ebuddy-backend-repo#readme"
+}
