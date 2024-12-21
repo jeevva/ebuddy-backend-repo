@@ -19,12 +19,12 @@ export const updateUserData = async (
       return;
     }
 
-    await updateUser(user);
+   const data = await updateUser(user);
 
     res.status(200).json({
       statusCode: 200,
       success: true,
-      data: user,
+      data: data,
       message: "Update User Successfully",
     });
   } catch (error) {

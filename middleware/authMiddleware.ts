@@ -7,6 +7,9 @@ export const authMiddleware = (
 ): void => {
   const token = req.headers.authorization;
 
+  res.setHeader("Cross-Origin-Opener-Policy", "same-origin");
+  res.setHeader("Cross-Origin-Embedder-Policy", "require-corp");
+
   if (!token) {
     res.status(401).json({
       statusCode: 401,
